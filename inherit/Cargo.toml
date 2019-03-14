@@ -1,0 +1,13 @@
+[package]
+name = "inherit"
+version = "0.1.0"
+authors = ["rfm <r@robertmasen.pizza>"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = {version = "0", features = ["full", "extra-traits"]}
+quote = "0"
+proc-macro2 = "0"
